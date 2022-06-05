@@ -27,7 +27,7 @@ get_gfwlist(){
 
 	# 5. compare
 	local md5sum1=$(md5sum ../gfwlist_tmp.conf | awk '{print $1}')
-	local md5sum2=$(md5sum ${RULE_PATH}/gfwlist.conf | awk '{print $1}')
+	local md5sum2=$(md5sum ../gfwlist.conf | awk '{print $1}')
 	echo "---------------------------------"
 	if [ "$md5sum1"x = "$md5sum2"x ]; then
 		echo "gfwlist same md5!"
@@ -36,12 +36,12 @@ get_gfwlist(){
 
 	# 6. update file
 	echo "update gfwlist!"
-	mv -f ../gfwlist_tmp.conf ${RULE_PATH}/gfwlist.conf
+	mv -f ../gfwlist_tmp.conf ../gfwlist.conf
 
 	# 7. write json
 	local CURR_DATE=$(TZ=CST-8 date +%Y-%m-%d\ %H:%M)
 	local MD5_VALUE=${md5sum1}
-	local LINE_COUN=$(cat ${RULE_PATH}/gfwlist.conf|grep -E "^server="|wc -l)
+	local LINE_COUN=$(cat ../gfwlist.conf|grep -E "^server="|wc -l)
 	jq --arg variable "${CURR_DATE}" '.gfwlist.date = $variable' ../rules.json.js | sponge ../rules.json.js
 	jq --arg variable "${MD5_VALUE}" '.gfwlist.md5 = $variable' ../rules.json.js | sponge ../rules.json.js
 	jq --arg variable "${LINE_COUN}" '.gfwlist.count = $variable' ../rules.json.js | sponge ../rules.json.js
@@ -78,7 +78,7 @@ get_chnroute(){
 
 	# 3. compare
 	local md5sum1=$(md5sum ../chnroute_tmp.txt | awk '{print $1}')
-	local md5sum2=$(md5sum ${RULE_PATH}/chnroute.txt | awk '{print $1}')
+	local md5sum2=$(md5sum ../chnroute.txt | awk '{print $1}')
 	echo "---------------------------------"
 	if [ "$md5sum1"x = "$md5sum2"x ]; then
 		echo "chnroute same md5!"
@@ -97,7 +97,7 @@ get_chnroute(){
 
 	# 5. update file
 	echo "update chnroute, total ${LINE_COUN} subnets, ${IP_COUNT} unique IPs !"
-	mv -f ../chnroute_tmp.txt ${RULE_PATH}/chnroute.txt
+	mv -f ../chnroute_tmp.txt ../chnroute.txt
 }
 
 get_cdn(){
@@ -127,12 +127,12 @@ get_cdn(){
 	
 	# 4. update file
 	echo "update cdn!"
-	mv -f ../cdn_tmp.txt ${RULE_PATH}/cdn.txt
+	mv -f ../cdn_tmp.txt ../cdn.txt
 
 	# 5. write json
 	local CURR_DATE=$(TZ=CST-8 date +%Y-%m-%d\ %H:%M)
 	local MD5_VALUE=${md5sum1}
-	local LINE_COUN=$(cat ${RULE_PATH}/cdn.txt | wc -l)
+	local LINE_COUN=$(cat ../cdn.txt | wc -l)
 	jq --arg variable "${CURR_DATE}" '.cdn_china.date = $variable' ../rules.json.js | sponge ../rules.json.js
 	jq --arg variable "${MD5_VALUE}" '.cdn_china.md5 = $variable' ../rules.json.js | sponge ../rules.json.js
 	jq --arg variable "${LINE_COUN}" '.cdn_china.count = $variable' ../rules.json.js | sponge ../rules.json.js
@@ -144,7 +144,7 @@ get_apple(){
 
 	# 2. compare
 	local md5sum1=$(md5sum ../apple_download.txt | sed 's/ /\n/g' | sed -n 1p)
-	local md5sum2=$(md5sum ${RULE_PATH}/apple_china.txt | sed 's/ /\n/g' | sed -n 1p)
+	local md5sum2=$(md5sum ../apple_china.txt | sed 's/ /\n/g' | sed -n 1p)
 	echo "---------------------------------"
 	if [ "$md5sum1"x = "$md5sum2"x ]; then
 		echo "apple china list same md5!"
@@ -153,12 +153,12 @@ get_apple(){
 	
 	# 3. update file
 	echo "update apple china list!"
-	mv -f ../apple_download.txt ${RULE_PATH}/apple_china.txt
+	mv -f ../apple_download.txt ../apple_china.txt
 
 	# 4. write json
 	local CURR_DATE=$(TZ=CST-8 date +%Y-%m-%d\ %H:%M)
 	local MD5_VALUE=${md5sum1}
-	local LINE_COUN=$(cat ${RULE_PATH}/apple_china.txt | wc -l)
+	local LINE_COUN=$(cat ../apple_china.txt | wc -l)
 	jq --arg variable "${CURR_DATE}" '.apple_china.date = $variable' ../rules.json.js | sponge ../rules.json.js
 	jq --arg variable "${MD5_VALUE}" '.apple_china.md5 = $variable' ../rules.json.js | sponge ../rules.json.js
 	jq --arg variable "${LINE_COUN}" '.apple_china.count = $variable' ../rules.json.js | sponge ../rules.json.js	
@@ -170,7 +170,7 @@ get_google(){
 
 	# 2. compare
 	local md5sum1=$(md5sum ../google_download.txt | sed 's/ /\n/g' | sed -n 1p)
-	local md5sum2=$(md5sum ${RULE_PATH}/google_china.txt | sed 's/ /\n/g' | sed -n 1p)
+	local md5sum2=$(md5sum ../google_china.txt | sed 's/ /\n/g' | sed -n 1p)
 	echo "---------------------------------"
 	if [ "$md5sum1"x = "$md5sum2"x ]; then
 		echo "google china list same md5!"
@@ -179,12 +179,12 @@ get_google(){
 	
 	# 3. update file
 	echo "update google china list!"
-	mv -f ../google_download.txt ${RULE_PATH}/google_china.txt
+	mv -f ../google_download.txt ../google_china.txt
 
 	# 4. write json
 	local CURR_DATE=$(TZ=CST-8 date +%Y-%m-%d\ %H:%M)
 	local MD5_VALUE=${md5sum1}
-	local LINE_COUN=$(cat ${RULE_PATH}/google_china.txt | wc -l)
+	local LINE_COUN=$(cat ../google_china.txt | wc -l)
 	jq --arg variable "${CURR_DATE}" '.google_china.date = $variable' ../rules.json.js | sponge ../rules.json.js
 	jq --arg variable "${MD5_VALUE}" '.google_china.md5 = $variable' ../rules.json.js | sponge ../rules.json.js
 	jq --arg variable "${LINE_COUN}" '.google_china.count = $variable' ../rules.json.js | sponge ../rules.json.js
@@ -196,7 +196,7 @@ get_cdntest(){
 
 	# 2. compare
 	local md5sum1=$(md5sum ../cdn_test.txt | sed 's/ /\n/g' | sed -n 1p)
-	local md5sum2=$(md5sum ${RULE_PATH}/cdn_test.txt | sed 's/ /\n/g' | sed -n 1p)
+	local md5sum2=$(md5sum ../cdn_test.txt | sed 's/ /\n/g' | sed -n 1p)
 	echo "---------------------------------"
 	if [ "$md5sum1"x = "$md5sum2"x ]; then
 		echo "cdn test list same md5!"
@@ -205,12 +205,12 @@ get_cdntest(){
 	
 	# 3. update file
 	echo "update cdn test list!"
-	mv -f ../cdn_test.txt ${RULE_PATH}/cdn_test.txt
+	mv -f ../cdn_test.txt ../cdn_test.txt
 
 	# 4. write json
 	local CURR_DATE=$(TZ=CST-8 date +%Y-%m-%d\ %H:%M)
 	local MD5_VALUE=${md5sum1}
-	local LINE_COUN=$(cat ${RULE_PATH}/cdn_test.txt | wc -l)
+	local LINE_COUN=$(cat ../cdn_test.txt | wc -l)
 	jq --arg variable "${CURR_DATE}" '.cdn_test.date = $variable' ../rules.json.js | sponge ../rules.json.js
 	jq --arg variable "${MD5_VALUE}" '.cdn_test.md5 = $variable' ../rules.json.js | sponge ../rules.json.js
 	jq --arg variable "${LINE_COUN}" '.cdn_test.count = $variable' ../rules.json.js | sponge ../rules.json.js
