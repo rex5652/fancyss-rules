@@ -113,8 +113,8 @@ get_cdn(){
 	fi
 	
 	# 2.merge
-	cat ../accelerated-domains.china.conf ../apple.china.conf google.china.conf | sed '/^#/d' | sed "s/server=\/\.//g" | sed "s/server=\///g" | sed -r "s/\/\S{1,30}//g" | sed -r "s/\/\S{1,30}//g" > ../cdn_download.txt
-	cat ../cdn_koolcenter.txt ../cdn_download.txt | sort -u > ../cdn_tmp.txt
+	cat ../accelerated-domains.china.conf ../apple.china.conf ../google.china.conf | sed '/^#/d' | sed "s/server=\/\.//g" | sed "s/server=\///g" | sed -r "s/\/\S{1,30}//g" | sed -r "s/\/\S{1,30}//g" > ../cdn_download.txt
+	cat cdn_koolcenter.txt ../cdn_download.txt | sort -u > ../cdn_tmp.txt
 
 	# 3. compare
 	local md5sum1=$(md5sum ../cdn_tmp.txt | sed 's/ /\n/g' | sed -n 1p)
