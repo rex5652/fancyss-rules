@@ -13,14 +13,16 @@ on:
         default: 'false'
   schedule:
     - cron: '45 19 * * *'
+
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
       - name: Run update script
         run: |
+          apt-get install moreutils
           cd rules/auto_update
           bash update_rules.sh
       - name: Commit to repo
