@@ -13,8 +13,8 @@ get_gfwlist(){
 	fi
 
 	# 2. merge
-	cat ../gfwlist_download.conf ../gfwlist_fancyss.conf | grep -Ev "([0-9]{1,3}[\.]){3}[0-9]{1,3}" | sed "s/^/server=&\/./g" | sed "s/$/\/127.0.0.1#7913/g" >../gfwlist_merge.conf
-	cat ../gfwlist_download.conf ../gfwlist_fancyss.conf | grep -Ev "([0-9]{1,3}[\.]){3}[0-9]{1,3}" | sed "s/^/ipset=&\/./g" | sed "s/$/\/gfwlist/g" >>../gfwlist_merge.conf
+	cat gfwlist_download.conf gfwlist_fancyss.conf | grep -Ev "([0-9]{1,3}[\.]){3}[0-9]{1,3}" | sed "s/^/server=&\/./g" | sed "s/$/\/127.0.0.1#7913/g" >../gfwlist_merge.conf
+	cat gfwlist_download.conf gfwlist_fancyss.conf | grep -Ev "([0-9]{1,3}[\.]){3}[0-9]{1,3}" | sed "s/^/ipset=&\/./g" | sed "s/$/\/gfwlist/g" >>../gfwlist_merge.conf
 
 	# 3. sort
 	sort -k 2 -t. -u ../gfwlist_merge.conf >../gfwlist_tmp.conf
@@ -68,13 +68,13 @@ get_chnroute(){
 	# cat apnic.txt| awk -F\| '/CN\|ipv4/ { printf("%s/%d\n", $4, 32-log($5)/log(2)) }' > ../chnroute_tmp.txt
 	# rm -rf ../apnic.txt
 	
-	if [ ! -f "chnroute_tmp.txt" ]; then
+	if [ ! -f "../chnroute_tmp.txt" ]; then
 		echo "chnroute download faild!"
 		exit 1
 	fi
 
 	# 2. process
-	sed -i '/^#/d' chnroute_tmp.txt
+	sed -i '/^#/d' ../chnroute_tmp.txt
 
 	# 3. compare
 	local md5sum1=$(md5sum ../chnroute_tmp.txt | awk '{print $1}')
