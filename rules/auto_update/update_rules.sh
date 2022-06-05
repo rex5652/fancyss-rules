@@ -192,10 +192,10 @@ get_google(){
 
 get_cdntest(){
 	# 1. get domain
-	wget https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/cdn-testlist.txt -qO ../cdn_test.txt
+	wget https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/cdn-testlist.txt -qO ../cdn_test_tmp.txt
 
 	# 2. compare
-	local md5sum1=$(md5sum ../cdn_test.txt | sed 's/ /\n/g' | sed -n 1p)
+	local md5sum1=$(md5sum ../cdn_test_tmp.txt | sed 's/ /\n/g' | sed -n 1p)
 	local md5sum2=$(md5sum ../cdn_test.txt | sed 's/ /\n/g' | sed -n 1p)
 	echo "---------------------------------"
 	if [ "$md5sum1"x = "$md5sum2"x ]; then
@@ -205,7 +205,7 @@ get_cdntest(){
 	
 	# 3. update file
 	echo "update cdn test list!"
-	mv -f ../cdn_test.txt ../cdn_test.txt
+	mv -f ../cdn_test_tmp.txt ../cdn_test.txt
 
 	# 4. write json
 	local CURR_DATE=$(TZ=CST-8 date +%Y-%m-%d\ %H:%M)
@@ -223,13 +223,13 @@ finish(){
 	rm -f ../gfwlist_download.conf
 	rm -f ../chnroute_tmp.txt
 	rm -f ../cdn_tmp.txt
+	rm -f ../cdn_test_tmp.txt
 	rm -f ../accelerated-domains.china.conf
 	rm -f ../cdn_download.txt
 	rm -f ../apple.china.conf
 	rm -f ../apple_download.txt
 	rm -f ../google.china.conf
 	rm -f ../google_download.txt
-	rm -f ../cdn_test.txt
 	echo "---------------------------------"
 }
 
