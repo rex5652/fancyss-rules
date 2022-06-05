@@ -234,7 +234,6 @@ finish(){
 }
 
 get_rules(){
-	prepare
 	get_gfwlist
 	get_chnroute
 	get_cdn
