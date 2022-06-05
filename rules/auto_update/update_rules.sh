@@ -5,13 +5,6 @@ RULE_PATH=${CURR_PATH%\/*}
 RULE_FILE=${RULE_PATH}/rules.json.js
 OBJECT_1='{}'
 
-prepare(){
-	if ! type -p sponge &>/dev/null; then
-	    printf '%s\n' "error: sponge is not installed, exiting..."
-	    exit 1
-	fi
-}
-
 get_gfwlist(){
 	# gfwlist.conf
 
@@ -244,7 +237,6 @@ finish(){
 }
 
 get_rules(){
-	prepare
 	get_gfwlist
 	get_chnroute
 	get_cdn
