@@ -1,3 +1,4 @@
+0-100.com
 0-6.com
 00.net
 000.link
@@ -2023,7 +2024,6 @@
 2000dns.com
 2000new.com
 2000y.net
-2002000.xyz
 200218.com
 2003dns.com
 20063365.com
@@ -2413,7 +2413,6 @@
 263ytx.com
 263zw.com
 264006.com
-265.com
 2656000.com
 26595.com
 265g.com
@@ -2560,8 +2559,6 @@
 2loveyou.com
 2m2j.com
 2ma2.com
-2mdn-cn.net
-2mdn.net
 2mjob.com
 2mould.com
 2or3m.com
@@ -7763,7 +7760,6 @@ admintony.com
 adminxue.com
 adminxy.com
 admire.so
-admob-cn.com
 admpub.com
 admqr.com
 adnineplus.com
@@ -7785,7 +7781,6 @@ adsage.com
 adsagedsp.com
 adsame.com
 adscover.com
-adservice.google.com
 adsjdy.com
 adslr.com
 adsmogo.com
@@ -8366,7 +8361,6 @@ aizhenrong.com
 aizhet.com
 aizhi.biz
 aizhibaby.com
-aizhicn.com
 aizhigu.tv
 aizhuizhui.com
 aiziti.net
@@ -9186,8 +9180,6 @@ apowogame.com
 apoyl.com
 app-123.com
 app-echo.com
-app-measurement-cn.com
-app-measurement.com
 app-router.com
 app-sage.com
 app-store.name
@@ -10609,10 +10601,6 @@ bdysite.com
 bdyxzx.com
 be-xx.com
 be90.com
-beacons.gcp.gvt2.com
-beacons.gvt2.com
-beacons2.gvt2.com
-beacons3.gvt2.com
 beadwallet.com
 bear20.com
 bearad.com
@@ -12568,8 +12556,6 @@ c-sky.com
 c-sz.com
 c-t.work
 c-yl.com
-c.admob.com
-c.android.clients.google.com
 c.citic
 c.team
 c0594.com
@@ -12639,7 +12625,6 @@ cablingteam.com
 cabplink.com
 cacfo.com
 cacg.cc
-cache.pack.google.com
 cachekit.com
 cachepro.com
 cachetime.com
@@ -14027,7 +14012,6 @@ chebada.com
 checheboke.com
 chechong.com
 check.cc
-checkin.gstatic.com
 checkip.biz
 checkip.pw
 checkoo.com
@@ -15538,13 +15522,11 @@ cli.im
 click-v.com
 click369.com
 clicksdiy.com
-clickserve.dartsearch.net
 clicksun.net
 clickwifi.net
 client51.com
 clientflow.apple.com
 clientflow.apple.com.akadns.net
-clientservices.googleapis.com
 cliffordtrading.com
 cliim.com
 cliim.net
@@ -16599,7 +16581,6 @@ congrongfund.com
 congyicn.com
 congzao.com
 congzhi.com
-connectivitycheck.gstatic.com
 connector-systems.com
 conoha.vip
 conohavps.com
@@ -16696,7 +16677,6 @@ corachic.com
 coralsec.com
 corebai.com
 coreldrawchina.com
-corp.google.com
 corpautohome.com
 corpease.net
 corpize.com
@@ -17019,7 +16999,6 @@ crispstata.com
 crjfw.com
 crl.globalsign.net
 crl.kaspersky.com
-crl.pki.goog
 crlcn.com
 crlf0710.com
 crlg.com
@@ -17121,7 +17100,6 @@ cshope.net
 cshu360.com
 cshxdc.com
 cshzw.com
-csi.gstatic.com
 csiaexpo.com
 csic-711.com
 csic-ljtech.com
@@ -18048,7 +18026,6 @@ darryring.com
 darshchemicals.com
 dartchina.com
 dartou.com
-dartsearch-cn.net
 daruan.com
 darwinlearns.com
 dashangcloud.com
@@ -19149,8 +19126,6 @@ dl-origin.ubnt.com
 dl-rc.com
 dl.delivery.mp.microsoft.com
 dl.djicdn.com
-dl.google.com
-dl.l.google.com
 dl.ubnt.com
 dl0728.com
 dl158.net
@@ -19587,8 +19562,6 @@ doubean.com
 doubi.ren
 doubimeizhi.com
 doubimm.net
-doubleclick-cn.net
-doubleclick.net
 douboshi.net
 douc.cc
 doucang.com
@@ -22620,7 +22593,6 @@ fir.vip
 firadio.net
 fire233.com
 fire2333.com
-firebase-settings.crashlytics.com
 firebirdprint.com
 fireemblem.net
 fireemulator.com
@@ -22902,8 +22874,6 @@ font.im
 font5.com
 font6.com
 fontke.com
-fonts.googleapis.com
-fonts.gstatic.com
 foodbk.com
 foodjx.com
 foodmate.net
@@ -23485,7 +23455,6 @@ fzzqcdn.com
 g-emall.com
 g-photography.net
 g-var.com
-g1.gstatic.com
 g12345.com
 g12e.com
 g168.net
@@ -23493,7 +23462,6 @@ g188.net
 g1c5.com
 g1d.net
 g1f5.com
-g2.gstatic.com
 g2.link
 g207.com
 g2g1.com
@@ -24713,26 +24681,8 @@ goodstudydayup.com
 goodtea.cc
 goodtp.com
 goofish.com
-google-analytics-cn.com
-google-analytics.com
-googleadservices-cn.com
-googleadservices.com
-googleanalytics.com
-googleapis-cn.com
-googleapps-cn.com
 googlebridge.com
-googleflights-cn.net
 googlefonts.net
-googleoptimize-cn.com
-googleoptimize.com
-googlesyndication-cn.com
-googlesyndication.com
-googletagmanager-cn.com
-googletagmanager.com
-googletagservices-cn.com
-googletagservices.com
-googletraveladservices-cn.com
-googlevads-cn.com
 googlevip8.com
 googlevoice.org
 googleyixia.com
@@ -25011,7 +24961,6 @@ gssdlv.com
 gssfgk.com
 gst-china.net
 gstarcad.com
-gstaticadssl.l.google.com
 gstdt.com
 gstonegames.com
 gsxcdn.com
@@ -25068,7 +25017,6 @@ gtm-a5b4.com
 gtm-i1d6.com
 gtm-i1d7.com
 gtm-i1d9.com
-gtm.oasisfeng.com
 gtmlufax.com
 gtn9.com
 gto365.com
@@ -25399,8 +25347,6 @@ guziyy.com
 gvacdn.com
 gvi-tech.com
 gvlocalization.com
-gvt1-cn.com
-gvt2-cn.com
 gw-dv.net
 gw-ec.com
 gw2sc.com
@@ -29507,6 +29453,7 @@ iblue.com
 iblue.me
 ibluefrog.com
 ibluesocial.com
+ibmnb.com
 ibmwclub.com
 ibook8.com
 ibooker.cc
@@ -30322,7 +30269,6 @@ imanhuaw.net
 imaojiang.com
 imarketchina.com
 imaschina.com
-imasdk.googleapis.com
 imatchic.com
 imatlas.com
 imaycon.com
@@ -33488,6 +33434,7 @@ jufxf.com
 juhaof.com
 juhaokan.org
 juhe.com
+juheng88.com
 juheweb.com
 juheying.com
 juhome.net
@@ -34868,7 +34815,6 @@ koofun.com
 kookong.com
 koolbao.com
 koolcenter.com
-koolddns.com
 kooldns.com
 koolearn.com
 koolproxy.com
@@ -42015,7 +41961,6 @@ ocrmaker.com
 ocsp-lb.apple.com.akadns.net
 ocsp.apple.com
 ocsp.globalsign.com
-ocsp.pki.goog
 ocsp.us.cdnetworks.com
 ocsp2.globalsign.com
 oct-asia.com
@@ -42756,7 +42701,6 @@ padasuo.net
 padding.me
 paddlepaddle.org
 paddlewaver.com
-pagead-googlehosted.l.google.com
 pageadmin.net
 pagechoice.com
 pagechoice.net
@@ -43605,7 +43549,6 @@ pkbkok.com
 pkdyplayer.com
 pkfj.xyz
 pkgklk.com
-pki-goog.l.google.com
 pkm360.com
 pkmmo.com
 pko123.com
@@ -44446,6 +44389,7 @@ qftouch.com
 qfun.com
 qg.net
 qg108.com
+qgbtd.com
 qgbzyzl.com
 qgcyjq.org
 qgdyc.net
@@ -44926,6 +44870,7 @@ qinqinxiaobao.com
 qinsmoon.com
 qinto.com
 qinwanghui.com
+qinxing.xyz
 qinxue.com
 qinxue100.com
 qinxue365.com
@@ -46038,7 +45983,6 @@ rebatesme.com
 rebo5566.com
 rebooo.com
 reborncodinglife.com
-recaptcha.net
 recgo.com
 rechaos.com
 rechuandao.com
@@ -46065,7 +46009,6 @@ redianzixun.com
 rediao.com
 redicecn.com
 redidc.com
-redirector.gvt1.com
 redisbook.com
 redisdoc.com
 redisfans.com
@@ -46099,7 +46042,6 @@ refined-x.com
 reformdata.org
 refractorywin.com
 reg007.com
-regioninfo-pa.googleapis.com
 regishome.com
 reglogo.net
 regtm.com
@@ -46604,6 +46546,7 @@ rtfund.com
 rthpc.com
 rtjxssj.com
 rtmap.com
+rtretree.cc
 rtrrx.com
 rtsac.org
 rtsoup.com
@@ -46749,6 +46692,7 @@ ruyo.net
 ruyu.com
 ruyuexs.com
 ruzw.com
+rv28.com
 rv2go.com
 rvfdp.com
 rvmcu.com
@@ -46837,7 +46781,6 @@ sacdr.net
 sact-digital.com
 sae-china.org
 saebbs.com
-safebrowsing.googleapis.com
 safecenter.com
 safehoo.com
 safejmp.com
@@ -47637,7 +47580,6 @@ sf-airlines.com
 sf-bearing.com
 sf-card.com
 sf-cityrush.com
-sf-companion.com
 sf-dsc.com
 sf-express.com
 sf-financial.com
@@ -47728,7 +47670,6 @@ sh-investment.net
 sh-ryjx.com
 sh-service.com
 sh-sfc.com
-sh-surface.com
 sh-tangfeng.com
 sh-warwick.com
 sh-xinao.com
@@ -50123,8 +50064,6 @@ ssjlicai.com
 ssjyhy.com
 ssjzw.com
 ssky123.com
-ssl-google-analytics.l.google.com
-ssl.gstatic.com
 sslaaa.com
 sslceshi.com
 sslchaoshi.com
@@ -50669,7 +50608,6 @@ suqnn.com
 surdoc.net
 sure56.com
 suremotoo.site
-surface-ser.com
 surprising.studio
 sursen.com
 sursenelec.com
@@ -52809,8 +52747,6 @@ toolinbox.net
 toolmall.com
 toolmao.com
 toolnb.com
-tools.google.com
-tools.l.google.com
 tooming.com
 toomoss.com
 toon.mobi
@@ -53051,10 +52987,8 @@ transer-cn.com
 transformer-cn.com
 transfu.com
 transfun.net
-translate.googleapis.com
 translatego.net
 translation-dictionary.net
-translation.googleapis.com
 translationchina.com
 transn.com
 transnbox.com
@@ -54279,7 +54213,6 @@ upchina.com
 upchinapro.com
 upchinaproduct.com
 upd.kaspersky.com
-update.googleapis.com
 updates-http.cdn-apple.com
 updates-http.cdn-apple.com.akadns.net
 updates.cdn-apple.com
@@ -56014,7 +55947,6 @@ weihanli.xyz
 weihaobang.com
 weihaoyi.com
 weihua2.com
-weihuangqp.com
 weihuazs.com
 weihubao.com
 weihuijob.com
@@ -57826,8 +57758,6 @@ www-123490.com
 www-175345.com
 www-4620.com
 www-63608.com
-www-google-analytics.l.google.com
-www-googletagmanager.l.google.com
 www.adobe.com
 www.agoda.com
 www.akamai.com
@@ -57847,7 +57777,6 @@ www.djivideos.com
 www.epsonconnect.com
 www.globalsign.com
 www.gov.mo
-www.gstatic.com
 www.htc.com
 www.htcsense.com
 www.microsoft.com
@@ -57945,6 +57874,7 @@ wxsell.com
 wxshake.com
 wxsky.net
 wxsteed.com
+wxsy.net
 wxsyedu.net
 wxsywh.com
 wxt2020.com
@@ -61897,6 +61827,7 @@ yjbys.com
 yjcf360.com
 yjcp.com
 yjdatasos.com
+yjf138.com
 yjfs8.com
 yjhyjl.com
 yjihua.com
