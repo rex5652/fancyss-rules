@@ -107,17 +107,17 @@ get_cdn(){
 	wget https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf -qO ../accelerated-domains.china.conf
 	wget https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf -qO ../apple.china.conf
 	wget https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf -qO ../google.china.conf
-	if [ ! -f "accelerated-domains.china.conf" -o ! -f "apple.china.conf" -o ! -f "google.china.conf" ]; then
+	if [ ! -f "../accelerated-domains.china.conf" -o ! -f "../apple.china.conf" -o ! -f "../google.china.conf" ]; then
 		echo "cdn download faild!"
 		exit 1
 	fi
 	
 	# 2.merge
-	cat accelerated-domains.china.conf apple.china.conf google.china.conf | sed '/^#/d' | sed "s/server=\/\.//g" | sed "s/server=\///g" | sed -r "s/\/\S{1,30}//g" | sed -r "s/\/\S{1,30}//g" >cdn_download.txt
-	cat cdn_koolcenter.txt cdn_download.txt | sort -u >cdn_tmp.txt
+	cat ../accelerated-domains.china.conf ../apple.china.conf google.china.conf | sed '/^#/d' | sed "s/server=\/\.//g" | sed "s/server=\///g" | sed -r "s/\/\S{1,30}//g" | sed -r "s/\/\S{1,30}//g" > ../cdn_download.txt
+	cat ../cdn_koolcenter.txt ../cdn_download.txt | sort -u > ../cdn_tmp.txt
 
 	# 3. compare
-	local md5sum1=$(md5sum cdn_tmp.txt | sed 's/ /\n/g' | sed -n 1p)
+	local md5sum1=$(md5sum ../cdn_tmp.txt | sed 's/ /\n/g' | sed -n 1p)
 	local md5sum2=$(md5sum ../cdn.txt | sed 's/ /\n/g' | sed -n 1p)
 	echo "---------------------------------"
 	if [ "$md5sum1"x = "$md5sum2"x ]; then
@@ -166,7 +166,7 @@ get_apple(){
 
 get_google(){
 	# 1. get domain
-	cat google.china.conf | sed '/^#/d' | sed "s/server=\/\.//g" | sed "s/server=\///g" | sed -r "s/\/\S{1,30}//g" | sed -r "s/\/\S{1,30}//g" | sort -u >../google_download.txt
+	cat ../google.china.conf | sed '/^#/d' | sed "s/server=\/\.//g" | sed "s/server=\///g" | sed -r "s/\/\S{1,30}//g" | sed -r "s/\/\S{1,30}//g" | sort -u > ../google_download.txt
 
 	# 2. compare
 	local md5sum1=$(md5sum ../google_download.txt | sed 's/ /\n/g' | sed -n 1p)
