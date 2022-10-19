@@ -10,7 +10,7 @@ on:
       FORCE_PUSH:
         description: 'Force to push'
         required: true
-        default: 'false'
+        default: 'ture'
   schedule:
     - cron: '45 19 * * *'
 
