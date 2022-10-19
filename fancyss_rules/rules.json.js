@@ -1,22 +1,22 @@
 {
   "gfwlist": {
     "name": "gfwlist.conf",
-    "date": "2022-10-13 03:52",
-    "md5": "6793ccfd20795d7adda5a31914fac419",
-    "count": "5601"
+    "date": "2022-09-30 09:09",
+    "md5": "3e60b057846be5da57d597128a769b43",
+    "count": "5598"
   },
   "chnroute": {
     "name": "chnroute.txt",
-    "date": "2022-10-18 03:54",
-    "md5": "12692945498d537dddb9b492dcbe1078",
-    "count": "4248",
-    "count_ip": "265636304",
+    "date": "2022-09-30 09:09",
+    "md5": "fa2ef59b43e32a3757710e991b7705ec",
+    "count": "4237",
+    "count_ip": "265619430",
     "source": "misakaio",
     "url": "https://github.com/misakaio/chnroutes2/blob/master/chnroutes.txt"
   },
   "chnroute2": {
     "name": "chnroute2.txt",
-    "date": "2022-09-29 12:32",
+    "date": "2022-07-16 23:02",
     "md5": "f12a5a7fb6c9c37d52dbbea0666812ba",
     "count": "6182",
     "count_ip": "13240665434",
@@ -25,35 +25,35 @@
   },
   "chnroute3": {
     "name": "chnroute3.txt",
-    "date": "2022-10-19 03:52",
-    "md5": "556be08df5a9b03719edbc1255ea19f9",
-    "count": "8622",
-    "count_ip": "343225764",
+    "date": "2022-09-30 09:09",
+    "md5": "a232ee21aa534c4daebf5d8497f19cfa",
+    "count": "8625",
+    "count_ip": "343230366",
     "source": "apnic",
     "url": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   },
   "cdn_china": {
     "name": "cdn.txt",
-    "date": "2022-10-18 03:54",
-    "md5": "f23b6ea08a3c87965ad79858fe55db78",
-    "count": "65412"
+    "date": "2022-09-30 09:09",
+    "md5": "56fdcbd8018002644fd973190772c501",
+    "count": "65395"
   },
   "apple_china": {
     "name": "apple_china.txt",
-    "date": "2022-10-01 03:50",
-    "md5": "312b1859e818ce2bc95d2a2a0e9059c3",
-    "count": "134"
+    "date": "2022-09-29 14:59",
+    "md5": "2a5f92d2a47cc281190d11db4a28427c",
+    "count": "135"
   },
   "google_china": {
     "name": "google_china.txt",
-    "date": "2022-10-09 03:48",
-    "md5": "982d00d6a3752bfbbde4ef2512bb678c",
-    "count": "161"
+    "date": "2022-09-30 09:09",
+    "md5": "c4fe00d362d0aeb3cf6598707b821fd9",
+    "count": "70"
   },
   "cdn_test": {
     "name": "cdn_test.txt",
-    "date": "2022-10-09 03:48",
-    "md5": "576a8d266539be4d7885e665f9a3f7cf",
-    "count": "81"
+    "date": "2022-09-29 14:59",
+    "md5": "0a62118fad3d440a031f318c4cf45953",
+    "count": "73"
   }
 }
