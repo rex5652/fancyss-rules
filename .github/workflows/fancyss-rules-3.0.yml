@@ -24,7 +24,7 @@ jobs:
 
       - name: Run update script
         run: |
-          sudo apt-get install moreutils
+          sudo apt-get install moreutils jq
           cd fancyss_rules/auto_update
           chmod +x fwlist.py
           bash update_rules.sh
