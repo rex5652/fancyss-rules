@@ -1,16 +1,16 @@
 {
   "gfwlist": {
     "name": "gfwlist.conf",
-    "date": "2026-02-23 03:55",
-    "md5": "cf180b04ab3ea6490cc68423f125d72f",
-    "count": "4898"
+    "date": "2026-02-25 04:03",
+    "md5": "5b106259bde28d6bfaba0fba4e8a2490",
+    "count": "4907"
   },
   "chnroute": {
     "name": "chnroute.txt",
-    "date": "2026-02-24 04:24",
-    "md5": "55725537b745731864ab6a4a595b3716",
-    "count": "3912",
-    "count_ip": "282900592",
+    "date": "2026-02-25 04:03",
+    "md5": "4f66aefa7a20507265b04f7d151347ac",
+    "count": "3915",
+    "count_ip": "282900074",
     "source": "misakaio",
     "url": "https://github.com/misakaio/chnroutes2/blob/master/chnroutes.txt"
   },
@@ -25,8 +25,8 @@
   },
   "chnroute3": {
     "name": "chnroute3.txt",
-    "date": "2026-02-24 04:24",
-    "md5": "4a57be7b2ac422310628ca436ac942b0",
+    "date": "2026-02-25 04:03",
+    "md5": "8abd11eaf4e1993b03f69568f9600dbb",
     "count": "4150",
     "count_ip": "287109010",
     "source": "apnic",
