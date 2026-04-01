@@ -1,16 +1,16 @@
 {
   "gfwlist": {
     "name": "gfwlist.conf",
-    "date": "2026-04-01 04:25",
-    "md5": "5d3b57d3138bc71dbdd36e4037f5de7e",
-    "count": "4917"
+    "date": "2026-04-02 04:25",
+    "md5": "ee105dc84df229dddac4f2b34eb9bab0",
+    "count": "4916"
   },
   "chnroute": {
     "name": "chnroute.txt",
-    "date": "2026-04-01 04:25",
-    "md5": "4a68712b4f0c4ed4ad2b5067a24d1a68",
-    "count": "3919",
-    "count_ip": "282514018",
+    "date": "2026-04-02 04:25",
+    "md5": "98ce9eae58de9c3d29f60e12be2e6b02",
+    "count": "3920",
+    "count_ip": "282513248",
     "source": "misakaio",
     "url": "https://github.com/misakaio/chnroutes2/blob/master/chnroutes.txt"
   },
@@ -25,10 +25,10 @@
   },
   "chnroute3": {
     "name": "chnroute3.txt",
-    "date": "2026-04-01 04:25",
-    "md5": "e6a5481c83ca40542569baf54eefe2fc",
-    "count": "4126",
-    "count_ip": "286707138",
+    "date": "2026-04-02 04:25",
+    "md5": "36730bc95006cff711138bc4e004b1ec",
+    "count": "4495",
+    "count_ip": "293752032",
     "source": "apnic",
     "url": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   },
