@@ -1,16 +1,16 @@
 {
   "gfwlist": {
     "name": "gfwlist.conf",
-    "date": "2026-04-07 04:22",
-    "md5": "02f01e8cf5f7ad020d2a466f7afb452c",
-    "count": "4915"
+    "date": "2026-04-08 04:24",
+    "md5": "1e207c136736b859f9a359f099d12257",
+    "count": "4994"
   },
   "chnroute": {
     "name": "chnroute.txt",
-    "date": "2026-04-05 04:00",
-    "md5": "8100140d946a14e340df4c6244a38a76",
+    "date": "2026-04-08 04:24",
+    "md5": "10caa1cbf28512fb1ae6ba140040e487",
     "count": "3922",
-    "count_ip": "282513500",
+    "count_ip": "282514268",
     "source": "misakaio",
     "url": "https://github.com/misakaio/chnroutes2/blob/master/chnroutes.txt"
   },
