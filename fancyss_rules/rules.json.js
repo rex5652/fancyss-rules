@@ -7,10 +7,10 @@
   },
   "chnroute": {
     "name": "chnroute.txt",
-    "date": "2026-06-03 06:10",
-    "md5": "5380ccf657141919034a417a7c1fba4b",
-    "count": "3906",
-    "count_ip": "282485372",
+    "date": "2026-06-04 06:15",
+    "md5": "7ec6d609f4d70eb10ed136161c9690d7",
+    "count": "3908",
+    "count_ip": "282472568",
     "source": "misakaio",
     "url": "https://github.com/misakaio/chnroutes2/blob/master/chnroutes.txt"
   },
