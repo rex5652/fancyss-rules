@@ -25,18 +25,18 @@
   },
   "chnroute3": {
     "name": "chnroute3.txt",
-    "date": "2026-06-27 05:08",
-    "md5": "8b41f1e385730f686a460def7ed690e8",
-    "count": "4307",
-    "count_ip": "286397016",
+    "date": "2026-06-28 04:42",
+    "md5": "98afdaae412029a5c6062ae7e686b2c1",
+    "count": "4304",
+    "count_ip": "286395486",
     "source": "apnic",
     "url": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   },
   "cdn_china": {
     "name": "cdn.txt",
-    "date": "2026-06-24 05:19",
-    "md5": "8fb581d60f81b835084745b9b3380c4f",
-    "count": "112143"
+    "date": "2026-06-28 04:42",
+    "md5": "29532f7274217a3d600644d35c60cb98",
+    "count": "112164"
   },
   "apple_china": {
     "name": "apple_china.txt",
