@@ -1,9 +1,9 @@
 {
   "gfwlist": {
     "name": "gfwlist.conf",
-    "date": "2026-10-08 07:50",
-    "md5": "d253d3fe97274054a2f8797b6fe78160",
-    "count": "5060"
+    "date": "2026-10-09 07:57",
+    "md5": "46f0cf71728f9b76a48203036c202590",
+    "count": "5065"
   },
   "chnroute": {
     "name": "chnroute.txt",
@@ -25,18 +25,18 @@
   },
   "chnroute3": {
     "name": "chnroute3.txt",
-    "date": "2026-10-08 07:50",
-    "md5": "e4fb009f15ac89cfa4e4dd2731ef8b89",
-    "count": "4300",
-    "count_ip": "285851494",
+    "date": "2026-10-09 07:57",
+    "md5": "68fb1da63ad8d5410a731b4c827a4e0b",
+    "count": "4302",
+    "count_ip": "285852002",
     "source": "apnic",
     "url": "http://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest"
   },
   "cdn_china": {
     "name": "cdn.txt",
-    "date": "2026-10-08 07:50",
-    "md5": "c506ba6b52decc0229dae4ecdba15405",
-    "count": "110958"
+    "date": "2026-10-09 07:57",
+    "md5": "51440ca2a0dcab4362e257edbb7e1a6c",
+    "count": "111290"
   },
   "apple_china": {
     "name": "apple_china.txt",
